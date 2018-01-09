@@ -1,5 +1,4 @@
-#This code is written by Shivam Kapoor(15BCE1339) and Abhishek Singh(15BCE1009)
-#For the Networks and Communication Course (CSE1004)
+#This code is written by Abhishek Singh(15BCE1009)
 
 import os
 import threading
