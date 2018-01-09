@@ -3,7 +3,6 @@
 #ifndef COMMON_H_
 #define COMMON_H_
 
-// Program Information.
 #define AppName "ttysys"
 #define AppVers "0.8"
 
