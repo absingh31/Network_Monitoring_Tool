@@ -1,10 +1,3 @@
-/*
- * windowlist.h
- *
- *  Created on: Jan 1, 2014
- *      Author: cody
- */
-
 #ifndef WINDOWLIST_H_
 #define WINDOWLIST_H_
 

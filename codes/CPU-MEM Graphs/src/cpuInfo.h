@@ -1,9 +1,3 @@
-/*
- * cpuInfo.h
- *
- *  Created on: Jan 1, 2014
- *      Author: cody
- */
 
 #ifndef CPUINFO_H_
 #define CPUINFO_H_

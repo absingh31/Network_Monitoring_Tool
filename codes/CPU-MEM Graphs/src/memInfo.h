@@ -1,10 +1,3 @@
-/*
- * memInfo.h
- *
- *  Created on: Jan 5, 2014
- *      Author: cody
- */
-
 #ifndef MEMINFO_H_
 #define MEMINFO_H_
 

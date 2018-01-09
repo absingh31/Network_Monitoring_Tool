@@ -1,10 +1,3 @@
-/*
- * common.h
- *
- *  Created on: Jan 1, 2014
- *      Author: cody
- */
-
 #include <ncurses.h>
 
 #ifndef COMMON_H_
