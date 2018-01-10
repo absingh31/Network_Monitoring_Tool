@@ -1,5 +1,4 @@
-//For Networks Project CSE1004 Prof.Renuka Devi
-// Authors - Shivam Kapoor(15BCE1339) and Abhishek Singh(15BCE1009)
+// Author - Abhishek Singh
 
 #define _GNU_SOURCE
 
