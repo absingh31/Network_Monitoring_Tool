@@ -1,22 +1,4 @@
 // Author - Abhishek Singh
-
-#define _GNU_SOURCE
-
-#ifdef __linux__
-#include <linux/version.h>
-#if LINUX_VERSION_CODE <= KERNEL_VERSION(2,6,39)
-#include <sys/socket.h>
-#endif
-#include <linux/if_link.h>
-#elif __OpenBSD__ || __NetBSD__
-#include <sys/socket.h>
-#include <sys/sysctl.h>
-#include <net/if_dl.h>
-#include <net/route.h>
-#else
-#error "Your platform is not supported"
-#endif
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -34,6 +16,24 @@
 
 #include "arg.h"
 #include "util.h"
+#define _GNU_SOURCE
+
+#ifdef __linux__
+#include <linux/version.h>
+#if LINUX_VERSION_CODE <= KERNEL_VERSION(2,6,39)
+#include <sys/socket.h>
+#endif
+#include <linux/if_link.h>
+#elif __OpenBSD__ || __NetBSD__
+#include <sys/socket.h>
+#include <sys/sysctl.h>
+#include <net/if_dl.h>
+#include <net/route.h>
+#else
+#error "Your platform is not supported"
+#endif
+
+
 
 #define VERSION "0.6"
 
