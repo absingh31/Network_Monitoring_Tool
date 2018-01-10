@@ -1,21 +1,5 @@
 // Author - Abhishek Singh
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <stdarg.h>
-#include <string.h>
-#include <limits.h>
-#include <sys/time.h>
-#ifdef __NetBSD__
-#include <ncurses/ncurses.h>
-#else
-#include <ncurses.h>
-#endif
-#include <ifaddrs.h>
-#include <net/if.h>
 
-#include "arg.h"
-#include "util.h"
 #define _GNU_SOURCE
 
 #ifdef __linux__
@@ -33,7 +17,23 @@
 #error "Your platform is not supported"
 #endif
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <stdarg.h>
+#include <string.h>
+#include <limits.h>
+#include <sys/time.h>
+#ifdef __NetBSD__
+#include <ncurses/ncurses.h>
+#else
+#include <ncurses.h>
+#endif
+#include <ifaddrs.h>
+#include <net/if.h>
 
+#include "arg.h"
+#include "util.h"
 
 #define VERSION "0.6"
 
