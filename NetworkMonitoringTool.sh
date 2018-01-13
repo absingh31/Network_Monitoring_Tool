@@ -15,8 +15,7 @@ figlet "Network Monitoring Tool"
 echo -e ""
 echo -e "	<<<<<Welcome to ${YEL}Network Monitoring Tool${NC} Project>>>>>"
 echo -e ""
-echo -e "This project is made by ${BLUE}Shivam Kapoor(15BCE1339)${NC} and ${BLUE}Abhishek Singh(15BCE1009)${NC}"
-echo -e "Done under ${YEL}Prof. Renuka Devi${NC} for ${BLUE}'Networks and Communications(CSE1004)'${NC}."
+echo -e "This project is made by${BLUE}Abhishek Singh(15BCE1009)${NC}"
 echo -e ""
 
 #Function to show choices.
