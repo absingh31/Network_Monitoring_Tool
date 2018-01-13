@@ -1,5 +1,5 @@
 #!/bin/bash
-#Wriiten by Abhishek Singh and Shivam Kapoor.
+#Wriiten by Abhishek Singh
 
 #Defining Variables for Colors
 RED='\033[1;34m'
